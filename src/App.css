@@ -1,0 +1,73 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 5px;
+  text-justify: center;
+}
+.container {
+  display: flex;
+  max-width: 1500px;
+  justify-content: space-between;
+  padding-left: 50px;
+  align-items: center;
+  background-color: #f7f6f4;
+  
+}
+.button{
+  display: flex;
+  align-items: center;
+  border: black 20px;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 50px; /* Makes it rounded */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  
+}
+.contact{
+  word-spacing: 6px;
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .container .second {
+    display: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 50px; /* Makes it rounded */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button img {
+    margin-right: 8px; /* Adds spacing between the flag and text */
+    width: 20px; /* Adjust flag size */
+    height: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .button {
+      font-size: 14px; /* Smaller font size for small screens */
+      padding: 8px 16px; /* Adjust padding for small screens */
+    }
+  
+    .button img {
+      width: 16px; /* Adjust flag size for small screens */
+      height: 16px;
+    }
+  }
+  
+}
+
