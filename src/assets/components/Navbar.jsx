@@ -6,7 +6,7 @@ const Navbar = () => {
     
 <nav className='all' >
   <div className="navbar  ms-lg-5 d-flex justify-content-between align-items-center">
-    <img className='w-xs-25' src="image/Printivo logo.svg" alt=""/>  
+    <img className='w-xs-25' src="src/assets/Printivo logo.svg" alt=""/>  
   
   <div className=' d-lg-flex gap-5 me-5 '>
     <ul class="  d-lg-flex  d-none gap-3 list-unstyled">
