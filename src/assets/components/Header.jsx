@@ -30,7 +30,7 @@ const Header = () => {
     </div>
   </form>
   <img
-    className="first-img d-none d-md-flex" src="image/Card3_n9kqin.png" alt="" />
+    className="first-img d-none d-md-flex" src="https://res.cloudinary.com/dyzdckuxi/image/upload/v1746539063/Card3_n9kqin_ezsmno.png" alt="" />
 </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ const Navbar = () => {
     
 <nav className='all' >
   <div className="navbar  ms-lg-5 d-flex justify-content-between align-items-center">
-    <img className='w-xs-25' src="src/assets/Printivo logo.svg" alt=""/>  
+    <img className='w-xs-25' src="https://res.cloudinary.com/dyzdckuxi/image/upload/v1746537813/Printivo_logo_whyvka.svg" alt=""/>  
   
   <div className=' d-lg-flex gap-5 me-5 '>
     <ul class="  d-lg-flex  d-none gap-3 list-unstyled">
@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className='d-flex gap-3'>
         <button class="border-0 bg-transparent text-danger " >Sign in</button>
         <p><a href="" className='d-none d-lg-flex'>Create Account</a></p>
-      <img src={"src/assets/cart.svg"} alt="" />
+      <img src={"https://res.cloudinary.com/dyzdckuxi/image/upload/v1746537927/cart_loqnw4.svg"} alt="" />
       </div>
     </div>
   </div>
