@@ -25,10 +25,10 @@ function App() {
             <p className='d-none d-lg-flex' >Need help? Call:</p>
             <p className='contact'>+2347069000083 <span className='d-none d-lg-flex'>or</span> +2349035000505</p>
         </div>
-        <img src={'image/contact us on +2348099561000.svg'} alt="" />
+        <img src={'src/assets/contact us on +2348099561000.svg'} alt="" />
         <div className='button btn'>
           <div>
-            <img src={"image/nigerian flag.svg"} alt="" />
+            <img src={"src/assets/nigerian flag.svg"} alt="" />
           </div>
           <div>
             Nigeria

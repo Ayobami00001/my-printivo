@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className='d-flex gap-3'>
         <button class="border-0 bg-transparent text-danger " >Sign in</button>
         <p><a href="" className='d-none d-lg-flex'>Create Account</a></p>
-      <img src={"image/cart.svg"} alt="" />
+      <img src={"src/assets/cart.svg"} alt="" />
       </div>
     </div>
   </div>
